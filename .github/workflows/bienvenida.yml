@@ -19,3 +19,14 @@ jobs:
 
       - name: List Files
         run: ls -l
+
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '20.x'
+
+      - name: npm install
+        run: npm install
+
+      - name: lint
+        run: npm run eslint
