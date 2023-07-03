@@ -7,7 +7,7 @@ on:
 
 jobs:
   saludo_job:
-    runs-on: ubuntu-18.04
+    runs-on: windows-latest
     steps:
       - name: Saludar
         run: |
