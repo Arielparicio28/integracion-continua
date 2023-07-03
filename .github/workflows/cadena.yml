@@ -1,0 +1,13 @@
+name: Deployment pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs: 
+  preparacion_entorno:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v2
