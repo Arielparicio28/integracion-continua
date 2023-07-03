@@ -7,7 +7,7 @@ on:
 
 jobs:
   saludo_job:
-    runs-on: windows-latest
+    runs-on: windows x64
     steps:
       - name: Saludar
         run: |
