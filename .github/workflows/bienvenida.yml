@@ -13,9 +13,9 @@ jobs:
         run: |
           echo "Hola Github Actions!!!"
 
-          - name: Print Date
-  run: |
-    echo "The current date is $(date +"%B %d, %Y")"
+      - name: Print Date
+        run: |
+          echo "The current date is $(date +"%B %d, %Y")"
 
-    - name: List Files
-  run: ls -l
+      - name: List Files
+        run: ls -l
